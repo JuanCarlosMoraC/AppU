@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.ucr.jcm.com.appucr.SodasActivity"
+    tools:showIn="@layout/activity_sodas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- ** Card Soda de Derecho ** -->
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_der"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:elevation="25dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="90"
+                    android:background="@color/cardview_dark_background" />
+
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="10"
+                   android:text="Derecho"
+                   android:textAlignment="textStart"
+                   android:textStyle="normal"
+                   android:textSize="20dp" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- ** Card Soda del comedor ** -->
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_com"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:elevation="25dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:background="@color/cardview_dark_background" />
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity=""
+                    android:paddingLeft="20dp"
+                    android:text="Comedor"
+                    android:textSize="30dp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- ** Card Soda del economicas ** -->
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_eco"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:elevation="25dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:background="@color/cardview_dark_background" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity=""
+                    android:paddingLeft="20dp"
+                    android:text="Economicas"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- ** Card Soda del letras ** -->
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_let"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:elevation="25dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:background="@color/cardview_dark_background" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity=""
+                    android:paddingLeft="20dp"
+                    android:text="Letras"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- ** Card Soda del farmacia ** -->
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_far"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:elevation="25dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:background="@color/cardview_dark_background" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity=""
+                    android:paddingLeft="20dp"
+                    android:text="Farmacia"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- ** Card Soda del agronomia ** -->
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_agr"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:elevation="25dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:background="@color/cardview_dark_background" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity=""
+                    android:paddingLeft="20dp"
+                    android:text="Agronomia"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- ** Card Soda del educacion ** -->
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_edu"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:elevation="25dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:background="@color/cardview_dark_background" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity=""
+                    android:paddingLeft="20dp"
+                    android:text="Educacion"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- ** Card Soda del generales ** -->
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_gen"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:elevation="25dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:background="@color/cardview_dark_background" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity=""
+                    android:paddingLeft="20dp"
+                    android:text="Generales"
+                    android:textSize="30dp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- ** Card Soda del ingenieria ** -->
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_ing"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:elevation="25dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:background="@color/cardview_dark_background" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity=""
+                    android:paddingLeft="20dp"
+                    android:text="Ingenieria"
+                    android:textSize="30dp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
